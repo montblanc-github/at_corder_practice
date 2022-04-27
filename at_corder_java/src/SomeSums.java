@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class some_sums{
+public class SomeSums{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = Integer.parseInt(sc.next()), a = Integer.parseInt(sc.next()), b = Integer.parseInt(sc.next()), ans = 0;

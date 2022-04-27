@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class small_and_large_integers {
+public class SmallAndLargeIntegers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = Integer.parseInt(sc.next()), b = Integer.parseInt(sc.next()), k = Integer.parseInt(sc.next());

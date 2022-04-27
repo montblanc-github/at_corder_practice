@@ -4,7 +4,7 @@ import java.util.TreeMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class palace {
+public class Palace {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = Integer.parseInt(sc.next()), t = Integer.parseInt(sc.next()), a = Integer.parseInt(sc.next());

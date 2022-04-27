@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class comparison{
+public class Comparison {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         final String A = sc.next(), B = sc.next();

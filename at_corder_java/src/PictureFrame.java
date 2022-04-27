@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class picture_frame{
+public class PictureFrame{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // nextIntを用いるより、下記のInteger.parseInt(sc.next())の方が実行速度が速い。

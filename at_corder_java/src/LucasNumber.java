@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 // 提出は、Mainクラスでしないと、コンパイルエラーになる。
-public class lucas_number {
+public class LucasNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
