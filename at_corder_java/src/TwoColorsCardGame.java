@@ -28,13 +28,13 @@ public class TwoColorsCardGame {
         }
 
         Integer maxValue = 0;
-      
+
         for (HashMap.Entry<String, Integer> entry : map.entrySet()) {
             if (entry.getValue() > maxValue) {
             maxValue = entry.getValue();
             }
         }
-        
+
         System.out.println(maxValue);
     }
 }
