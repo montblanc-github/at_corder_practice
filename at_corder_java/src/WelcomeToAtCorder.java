@@ -27,6 +27,15 @@ public class WelcomeToAtCorder {
             }
         }
 
-        System.out.println(ac + " " + Arrays.stream(wa).sum());
+        sc.close();
+
+        int kk = 0;
+        for (int i = 0; i < N; i++) {
+            if (solved[i]) {
+                kk += wa[i];
+            }
+        }
+
+        System.out.println(ac + " " + kk);
     }
 }
